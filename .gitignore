@@ -1,0 +1,16 @@
+# Data (raw dataset is large / third-party -- don't commit it)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
