@@ -35,9 +35,9 @@ Given information about a restaurant listed on Zomato, can we predict its expect
 
 | Model | RMSE | R² |
 |---|---|---|
-| Linear Regression | *(see reports/model_comparison.md)* | |
-| Random Forest | | |
-| XGBoost | | |
+| Linear Regression | *0.25071* | *0.673352* |
+| Random Forest | *0.257337* | *0.655856* |
+| XGBoost | *0.333629* | *0.421554*|
 
 Full comparison table generated automatically at `reports/model_comparison.md` after running `03_modeling.ipynb`.
 
